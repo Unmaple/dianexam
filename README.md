@@ -15,9 +15,11 @@ yolov5pipeline：
 注意事项：batchsize不能调太大，不仅占用显存大还延缓模型收敛速度  
 注意事项：有三个.yaml应当更改，--cfg，--data，--hyp，其中前两个为了改识别物体类别，最后是把图像水平翻转的图像增强去掉  
 
-baseline-pipeline
+baseline-pipeline  
 main.py函数
 （因验证集正确率不理想故没有继续往下做输出）
+  
+ps:其余未作标注的文件是做baseline和fasterRCNN时留下的源码  
   
   
 详细过程：  
