@@ -9,8 +9,8 @@ AIA曾明杰2201智实
 同时使用官方提供的baseline和yolov5两条技术路线，其中yolov5路线率先达到0.9正确率（2022.10.17，7：00结果：91.54%），目前天池长期赛排名165，昵称：aliyun9779476569  
 yolov5pipeline：  
 使用readjson处理赛事提供的数据成yolov5支持的格式  
-使用training的训练命令（即yolov5文件里的train.py  
-使用training中的测试命令（即yolov5文件里的detect.py  
+使用training.txt的训练命令（即yolov5文件里的train.py  
+使用training.txt中的测试命令（即yolov5文件里的detect.py  
 使用out.py将输出数据格式化成赛事提交的格式  
 注意事项：batchsize不能调太大，不仅占用显存大还延缓模型收敛速度  
 注意事项：有三个.yaml应当更改，--cfg，--data，--hyp，其中前两个为了改识别物体类别，最后是把图像水平翻转的图像增强去掉  
